@@ -1,0 +1,16 @@
+$width: 1920px;
+
+body{
+    margin: 0 auto;
+}
+.container{
+    width: $width;
+    margin: 0 auto;
+}
+
+@import 'mixins.scss';
+@import 'fonts.scss';
+@import 'header.scss';
+@import 'main.scss';
+@import 'footer.scss';
+@import 'mobile.scss';
